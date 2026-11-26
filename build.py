@@ -10,6 +10,8 @@ CONTENT = ROOT / "content"
 OUTPUT = ROOT / "public"
 DOMAIN = "https://joeyerardi.com"
 INQUIRER = "https://www.inquirer.com/author/yerardi_joe/"
+BLUESKY_HANDLE = "joeyerardi.bsky.social"
+BLUESKY = f"https://bsky.app/profile/{BLUESKY_HANDLE}"
 NAVIGATION = (("featured-work", "Work"), ("about", "About"), ("contact", "Contact"))
 
 
@@ -54,7 +56,7 @@ def page(title, description, route, body):
   <footer class="site-footer">
     <div class="wrap footer-inner">
       <a class="wordmark" href="{base}">Joe Yerardi</a>
-      <div><a href="mailto:joe.yerardi@gmail.com">Email</a><a href="https://github.com/JoeYerardi">GitHub</a><a href="https://www.linkedin.com/in/joeyerardi">LinkedIn</a></div>
+      <div><a href="mailto:joe.yerardi@gmail.com">Email</a><a href="https://github.com/JoeYerardi">GitHub</a><a href="https://www.linkedin.com/in/joeyerardi">LinkedIn</a><a href="{BLUESKY}">Bluesky</a></div>
     </div>
   </footer>
 </body>
@@ -125,7 +127,7 @@ def archive(recent, stories):
   </section>"""
 
 
-CONTACT = """
+CONTACT = f"""
   <section class="page-intro">
     <h1>Get in touch</h1>
     <p class="dek">Have a news tip, a question about a story or just want to drop me a line?</p>
@@ -134,6 +136,7 @@ CONTACT = """
     <li><strong>Email</strong><a href="mailto:joe.yerardi@gmail.com">joe.yerardi@gmail.com</a></li>
     <li><strong>GitHub</strong><a href="https://github.com/JoeYerardi">JoeYerardi</a></li>
     <li><strong>LinkedIn</strong><a href="https://www.linkedin.com/in/joeyerardi">joeyerardi</a></li>
+    <li><strong>Bluesky</strong><a href="{BLUESKY}">@{BLUESKY_HANDLE}</a></li>
     <li><strong>X</strong><a href="https://x.com/JoeYerardi">@JoeYerardi</a></li>
   </ul>"""
 
