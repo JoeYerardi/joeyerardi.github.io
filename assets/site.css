@@ -15,7 +15,6 @@
 *, *::before, *::after { box-sizing: border-box; }
 body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; }
 main { flex: 1; }
-[hidden] { display: none !important; }
 a { color: inherit; text-underline-offset: .22em; text-decoration-thickness: .07em; }
 a:hover { color: var(--accent); }
 :focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
@@ -26,7 +25,6 @@ h2 { font-size: clamp(2rem, 4vw, 3.4rem); letter-spacing: -.045em; line-height: 
 h3 { font-size: clamp(1.35rem, 2vw, 1.85rem); letter-spacing: -.025em; line-height: 1.15; }
 h2 a, h3 a { text-decoration: none; }
 h2 a:hover, h3 a:hover { text-decoration: underline; }
-h1 span, .wordmark span { color: var(--accent); }
 .wrap { width: min(100% - 3.5rem, 70rem); margin-inline: auto; }
 .skip { position: absolute; top: .75rem; left: .75rem; padding: .75rem; z-index: 1; background: white; transform: translateY(-180%); }
 .skip:focus { transform: none; }
@@ -64,10 +62,6 @@ nav a:hover, nav [aria-current="page"] { text-decoration: underline; }
 .page-intro { padding-block: clamp(2.75rem, 7vw, 5rem) 1.5rem; }
 .page-intro h1 { font-size: clamp(3rem, 8vw, 6.65rem); margin-bottom: 1.1rem; }
 .page-intro + .recent { margin-top: 1.25rem; }
-.search { margin-block: 1.25rem .65rem; }
-.search label { font-weight: 700; display: block; margin-bottom: .4rem; }
-.search input { font: inherit; width: min(100%, 29rem); padding: .7rem .85rem; color: var(--ink); background: #fff; border: 1px solid var(--muted); border-radius: .2rem; }
-.search .meta { margin-top: .45rem; }
 .archive-card { padding: 1.25rem 0; border-bottom: 1px solid var(--line); }
 .archive-card h3 { margin-block: .35rem .55rem; max-width: 37ch; }
 .archive-card details { max-width: 72ch; }
