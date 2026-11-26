@@ -11,8 +11,14 @@ OUTPUT = ROOT / "public"
 DOMAIN = "https://joeyerardi.com"
 INQUIRER = "https://www.inquirer.com/author/yerardi_joe/"
 BLUESKY_HANDLE = "joeyerardi.bsky.social"
-BLUESKY = f"https://bsky.app/profile/{BLUESKY_HANDLE}"
 NAVIGATION = (("featured-work", "Work"), ("about", "About"), ("contact", "Contact"))
+CONTACT_LINKS = (
+    ("Email", "mailto:joe.yerardi@gmail.com", "joe.yerardi@gmail.com"),
+    ("GitHub", "https://github.com/JoeYerardi", "JoeYerardi"),
+    ("LinkedIn", "https://www.linkedin.com/in/joeyerardi", "joeyerardi"),
+    ("X", "https://x.com/JoeYerardi", "@JoeYerardi"),
+    ("Bluesky", f"https://bsky.app/profile/{BLUESKY_HANDLE}", f"@{BLUESKY_HANDLE}"),
+)
 
 
 def load(name):
@@ -34,6 +40,7 @@ def page(title, description, route, body):
         links.append(f'<a href="{base}{path}/"{current}>{label}</a>')
     canonical = (f'<link rel="canonical" href="{DOMAIN}/{route + "/" if route else ""}">'
                  if route != "404.html" else "")
+    footer_links = "".join(f'<a href="{url}">{label}</a>' for label, url, _ in CONTACT_LINKS)
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -56,7 +63,7 @@ def page(title, description, route, body):
   <footer class="site-footer">
     <div class="wrap footer-inner">
       <a class="wordmark" href="{base}">Joe Yerardi</a>
-      <div><a href="mailto:joe.yerardi@gmail.com">Email</a><a href="https://github.com/JoeYerardi">GitHub</a><a href="https://www.linkedin.com/in/joeyerardi">LinkedIn</a><a href="{BLUESKY}">Bluesky</a></div>
+      <div>{footer_links}</div>
     </div>
   </footer>
 </body>
@@ -127,17 +134,18 @@ def archive(recent, stories):
   </section>"""
 
 
-CONTACT = f"""
+def contact():
+    items = "".join(
+        f'<li><strong>{label}</strong><a href="{url}">{handle}</a></li>'
+        for label, url, handle in CONTACT_LINKS
+    )
+    return f"""
   <section class="page-intro">
     <h1>Get in touch</h1>
     <p class="dek">Have a news tip, a question about a story or just want to drop me a line?</p>
   </section>
   <ul class="contact-list">
-    <li><strong>Email</strong><a href="mailto:joe.yerardi@gmail.com">joe.yerardi@gmail.com</a></li>
-    <li><strong>GitHub</strong><a href="https://github.com/JoeYerardi">JoeYerardi</a></li>
-    <li><strong>LinkedIn</strong><a href="https://www.linkedin.com/in/joeyerardi">joeyerardi</a></li>
-    <li><strong>Bluesky</strong><a href="{BLUESKY}">@{BLUESKY_HANDLE}</a></li>
-    <li><strong>X</strong><a href="https://x.com/JoeYerardi">@JoeYerardi</a></li>
+    {items}
   </ul>"""
 
 
@@ -149,7 +157,7 @@ def build():
         ("", "Joe Yerardi | Data journalist", "The journalism portfolio of Joe Yerardi.", home(recent[:3])),
         ("featured-work", "Featured Work | Joe Yerardi", "Selected investigations, data stories and news apps by Joe Yerardi.", archive(recent, stories)),
         ("about", "About | Joe Yerardi", "Joe Yerardi’s journalism experience, awards and education.", about),
-        ("contact", "Contact | Joe Yerardi", "Contact data reporter Joe Yerardi.", CONTACT),
+        ("contact", "Contact | Joe Yerardi", "Contact data reporter Joe Yerardi.", contact()),
         ("404.html", "Page not found | Joe Yerardi", "This page could not be found.", '<section class="page-intro"><h1>Page not found</h1><p><a href="/">Return to the homepage</a></p></section>'),
     )
     for route, title, description, body in pages:
