@@ -142,7 +142,7 @@ def contact():
     return f"""
   <section class="page-intro">
     <h1>Get in touch</h1>
-    <p class="dek">Have a news tip, a question about a story or just want to drop me a line?</p>
+    <p class="dek">Have a news tip, a question about a story, or just want to drop me a line?</p>
   </section>
   <ul class="contact-list">
     {items}
