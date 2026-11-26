@@ -1,0 +1,272 @@
+[
+  {
+    "title": "As guest workers increase, so do concerns about wage cheating",
+    "url": "https://publicintegrity.org/inequality-poverty-opportunity/workers-rights/cheated-at-work/guest-workers-increase-wage-cheating/",
+    "publisher": "Center for Public Integrity",
+    "date": "2022-03-02",
+    "paragraphs": [
+      "Low-wage foreigners in the U.S. on H-2A and H-2B visas are uniquely vulnerable to wage theft and other forms of exploitation because their visas tie them to a specific employer: speak up and they could lose their visas and a coveted chance to work legally in the United States. Despite this, my analysis of wage theft case data from the Department of Labor and visa applications data from the Department of State revealed that explosive growth in these visas has not been accompanied by an equivalent increase in wage theft investigations. Among my findings: while H-2A and H-2B cases increased only slightly from 424 in 2011 to 478 in 2019, the total number of these guest worker visas issued leaped from 106,000 to 302,000. I made the code and data behind the story’s analysis <a href=\"https://github.com/PublicI/wage-theft\">publicly available on GitHub</a>. The story was published in partnership with <a href=\"https://apnews.com/article/immigration-coronavirus-pandemic-business-health-louisiana-88905383231ba9a51897cc670563abb2\">The Associated Press</a> and <a href=\"https://www.univision.com/noticias/dinero/trabajadores-temporales-visa-h2a-h2b-se-teme-que-haya-mas-victimas-de-robo-de-salario\">Univision</a> and won a <a href=\"https://cronkite.asu.edu/shaufler-prize/\">Shaufler Prize</a> for advancing the understanding of issues related to underserved people in society."
+    ],
+    "tools": "Excel, Git/GitHub, R"
+  },
+  {
+    "title": "Wage theft hits immigrants — hard",
+    "url": "https://publicintegrity.org/inequality-poverty-opportunity/workers-rights/cheated-at-work/garment-immigrant-workers-wage-theft/",
+    "publisher": "Center for Public Integrity",
+    "date": "2021-10-14",
+    "paragraphs": [
+      "While investigating cases of wage theft for <a href=\"https://publicintegrity.org/topics/inequality-poverty-opportunity/workers-rights/cheated-at-work/\">a Center series</a>, my colleague and I noticed that victims were often immigrants. We decided to report on the extent of the crime among this vulnerable population. My analysis of wage theft case data from the Department of Labor and Census microdata revealed that wage theft is more prevalent in industries with a higher share of immigrant workers. Among my findings: about 73% of all wage theft cases occurred in industries with a higher proportion of foreign-born workers than the national average and nine of the top 10 industries by rate of wage theft cases had a proportion of foreign-born workers greater than the national average. I made the code and data behind the story’s analysis <a href=\"https://github.com/PublicI/wage-theft\">publicly available on GitHub</a>. The story was published in partnership with <a href=\"https://apnews.com/article/immigration-coronavirus-pandemic-business-california-health-b6c9bd122e38bd72bc625369fa604a9c\">The Associated Press</a> and <a href=\"https://www.univision.com/noticias/estados-unidos/robo-de-salario-trabajadores-en-industrias-con-mucha-mano-de-obra-inmigrante-maquilas\">Univision</a>."
+    ],
+    "tools": "Excel, Git/GitHub, R"
+  },
+  {
+    "title": "When schools call police on kids",
+    "url": "https://publicintegrity.org/education/criminalizing-kids/police-in-schools-disparities/",
+    "publisher": "Center for Public Integrity",
+    "date": "2021-09-08",
+    "paragraphs": [
+      "Schools referred 230,000 students to law enforcement during the 2017-18 school year. My colleagues and I set out to determine whether schools were using such referrals (a broad category that includes citations to appear before a judge, arrests by police, and other law enforcement interactions) equitably. My analysis of Department of Education data revealed wide disparities, nationally and between states. Among my findings: Black students and students with disabilities were referred to law enforcement at nearly twice their share of the overall student population. I made the code and data behind the story’s analysis <a href=\"https://github.com/PublicI/school-discipline\">publicly available on GitHub</a>. The story was published in partnership with <a href=\"https://www.usatoday.com/story/news/investigations/2021/09/08/police-schools-black-and-disabled-children-face-harsher-discipline/5436023001/\">USA TODAY</a>. My colleagues and I also assisted dozens of local news organizations in using the data to investigate policies in their communities."
+    ],
+    "tools": "Excel, Git/GitHub, R"
+  },
+  {
+    "title": "Ripping off workers without consequences",
+    "url": "https://publicintegrity.org/inequality-poverty-opportunity/workers-rights/cheated-at-work/ripping-off-workers-with-no-consequences/",
+    "publisher": "Center for Public Integrity",
+    "date": "2021-05-04",
+    "paragraphs": [
+      "Economists estimate wage theft costs workers more than $15 billion a year. My colleague and I investigated how effectively the Department of Labor’s Wage and Hour Division (WHD) combats this epidemic. My analysis of 15 years of data received from a Freedom of Information Act request found that companies had little incentive to follow the law. Among my findings: WHD fined only about one in four repeat offenders, ordered those companies to pay workers cash damages in just 14% of cases, and even let more than 16,000 employers get away with not paying $20.3 million in back wages. I made the code and data behind the story’s analysis <a href=\"https://github.com/PublicI/wage-theft\">publicly available on GitHub</a>. The story was published in partnership with <a href=\"https://apnews.com/article/how-companies-rip-off-poor-employees-6c5364b4f9c69d9bc1b0093519935a5a\">The Associated Press</a> and <a href=\"https://www.univision.com/noticias/estados-unidos/robo-salarios-empleadores-trabajadores-latinos-estados-unidos\">Univision</a> and won a SABEW Best in Business Award."
+    ],
+    "tools": "Excel, Git/GitHub, R"
+  },
+  {
+    "title": "These companies took $1.8 billion in federal aid to save jobs. They laid off 90,000 workers anyway.",
+    "url": "https://publicintegrity.org/inequality-poverty-opportunity/covid-divide/companies-took-covid-19-aid-they-laid-off-90000-workers-anyway/",
+    "publisher": "Center for Public Integrity",
+    "date": "2020-12-18",
+    "paragraphs": [
+      "The proponents of the $669-billion Paycheck Protection Program sold it to the public with a promise: this program will save jobs. My colleagues and I set out to test the veracity of that claim. We first collected WARN Act-mandated layoff notices from 44 states and the District of Columbia — often scraping the data from dozens of different web sites. I then combined those records with Paycheck Protection Program loan data from the Treasury Department using fuzzy matching techniques. My analysis unearthed more than 900 companies that took more than $1.8 billion in PPP loans while laying off or furloughing at least 90,000 workers."
+    ],
+    "tools": "Excel, Git/GitHub, R"
+  },
+  {
+    "title": "Trump attacks them. COVID-19 threatens them. But immigrants keep the U.S. Fed.",
+    "url": "https://publicintegrity.org/inequality-poverty-opportunity/immigration/immigration-employment/trump-covid-19-immigrants-food-supply-farmworkers/",
+    "publisher": "Center for Public Integrity",
+    "date": "2020-09-28",
+    "paragraphs": [
+      "As summer turned to fall and death counts rose in hot spots across the country, a troubling — if anecdotal — pattern emerged: many of the worst COVID-19 outbreaks seemed to be centered in immigrant foodworker communities. My colleague and I decided to report on the extent of the crisis among this vulnerable population while highlighting their importance to our nation’s food supply. I conducted extensive analysis of Census microdata to reveal that 43% of front-line farm and food processing jobs were held by immigrants — two-and-a-half times their proportion in the total U.S. workforce. I made the code and data behind the story’s analysis <a href=\"https://github.com/PublicI/covid-immigrant-foodworkers\">publicly available on GitHub</a>. The story was published in partnership with <a href=\"https://www.motherjones.com/food/2020/09/trump-attacks-them-covid-19-threatens-them-but-immigrants-keep-the-us-fed/\">Mother Jones</a>. The piece, among other awards, won a <a href=\"https://journalism.columbia.edu/tobenkin#2021_Tobenkin_Award_Winner\">Paul Tobenkin Memorial Award</a> for outstanding achievements in reporting on racial or religious hatred, intolerance or discrimination and an <a href=\"https://awards.journalists.org/entries/hidden-hardship/\">Online Journalism Award</a> for Explanatory Reporting."
+    ],
+    "tools": "Excel, Git/GitHub, QGIS, R"
+  },
+  {
+    "title": "Fewer inspectors, more deaths: the Trump administration rolls back workplace safety inspections",
+    "url": "https://publicintegrity.org/politics/system-failure/deaths-cutbacks-workplace-safety-inspections-osha/",
+    "publisher": "Center for Public Integrity",
+    "date": "2020-08-18",
+    "paragraphs": [
+      "With every day bringing more stories of workers dying from COVID-19, my colleague and I took a look at workplace safety inspections conducted by the Occupational Safety and Health Administration (OSHA). Our investigation found a two-thirds drop in inspections during the COVID-19 pandemic as compared to the same period the year prior. That decline fit into a pattern of moves at the agency during the Trump administration, including conducting fewer overall inspections and putting fewer inspectors on the job. I analyzed years of inspections data from the agency that formed the core of the story. I made the code and data behind the story’s analysis <a href=\"https://github.com/PublicI/osha-fatality-inspections\">publicly available on GitHub</a>. The story was published in partnership with <a href=\"https://www.vox.com/2020/8/18/21366388/osha-worker-safety-trump\">Vox</a>."
+    ],
+    "tools": "Excel, Git/GitHub, R"
+  },
+  {
+    "title": "Communities of color poised to lose their homes as eviction moratoriums lift",
+    "url": "https://publicintegrity.org/health/coronavirus-and-inequality/communities-of-color-homes-coronavirus-evictions-moratoriums-lift/",
+    "publisher": "Center for Public Integrity",
+    "date": "2020-07-22",
+    "paragraphs": [
+      "With eviction moratoriums set to expire as the COVID-19 pandemic raged into the summer, my colleagues and I set out to identify the neighborhoods most likely to witness a tsunami of evictions. To that end, we scraped court eviction filings from the web and combined them with Census Bureau data, reviewed lawsuits and interviewed tenants facing eviction and their landlords. Our analysis revealed that  low-income and non-white communities were likely to be hardest hit. I made the code and data behind the story’s analysis <a href=\"https://github.com/PublicI/coronavirus-evictions\">publicly available on GitHub</a>. The story was published in partnership with the <a href=\"https://www.tampabay.com/news/florida/2020/07/22/in-states-like-florida-eviction-filings-during-the-pandemic-impact-minority-poor-neighborhoods/\">Tampa Bay Times</a>.  "
+    ],
+    "tools": "Excel, Git/GitHub, Python, R"
+  },
+  {
+    "title": "While ‘zombie’ mines idle, cleanup and workers suffer in limbo",
+    "url": "https://publicintegrity.org/environment/while-zombie-mines-idle-cleanup-and-workers-suffer-in-limbo/",
+    "publisher": "Center for Public Integrity",
+    "date": "2019-09-04",
+    "paragraphs": [
+      "As cheap natural gas and renewables hastened the coal industry’s decline throughout the summer of 2019, my colleague and I investigated the phenomenon of mine idling. Our investigation found that mining companies were abusing the process — conceived to allow operators to temporarily pause operations for limited periods of time — to effectively shut down their mines. The upshot? By “idling” — instead of formally shuttering — their operations, corporations evaded responsibility for the often expensive environmental reclamation mandated when a site shuts down. Our analysis identified nearly 200 so-called “zombie mines” that had sat idle for years. The story was published in partnership with <a href=\"https://www.hcn.org/issues/51.20/mining-while-zombie-mines-idle-cleanup-and-workers-suffer-in-limbo\">High Country News</a> and <a href=\"https://ohiovalleyresource.org/2019/09/04/while-zombie-mines-idle-cleanup-and-workers-remain-in-limbo/\">Ohio Valley ReSource</a>."
+    ],
+    "tools": "Excel, Git/GitHub, Python"
+  },
+  {
+    "title": "Despite legal protections, most workers who face discrimination are on their own",
+    "url": "https://publicintegrity.org/inequality-poverty-opportunity/workers-rights/workplace-inequities/injustice-at-work/workplace-discrimination-cases/",
+    "publisher": "Center for Public Integrity",
+    "date": "2019-02-28",
+    "paragraphs": [
+      "Shortly after the #MeToo Movement thrust issues of workplace harassment into the public spotlight in late 2017, my colleague and I began to investigate how well the nation protects victims of discrimination on the job. To that end, we analyzed eight years of complaint data from the federal Equal Employment Opportunity Commission as well as its state and local counterparts, reviewed hundreds of court cases and interviewed dozens of people who filed complaints. What emerged was a picture of a system that routinely fails workers. I made the code and data behind the story’s analysis <a href=\"https://github.com/PublicI/employment-discrimination\">publicly available on GitHub</a>. The story was published in partnership with <a href=\"https://www.vox.com/policy-and-politics/2019/2/28/18241973/workplace-discrimination-cpi-investigation-eeoc\">Vox</a>."
+    ],
+    "tools": "Excel, Git/GitHub, Python"
+  },
+  {
+    "title": "Did billionaires pay off Republicans for passing the Trump tax bill?",
+    "url": "https://publicintegrity.org/inequality-poverty-opportunity/taxes/trumps-tax-cuts/did-billionaires-pay-off-republicans-for-passing-the-trump-tax-bill/",
+    "publisher": "Center for Public Integrity",
+    "date": "2019-02-07",
+    "paragraphs": [
+      "As the first year following enactment of President Donald Trump’s tax bill came to a close, my colleagues and I investigated what role, if any, major GOP donors may have played in ensuring the bill’s passage. Some big-time Republican money men had made public pronouncements that they’d turn off the cash spigot should their party’s Congressional majorities fail to deliver tax reform. Many of these same big-money donors were among those Americans tax experts pegged to reap windfalls in tax savings from the law. I made the code and data behind the story’s analysis <a href=\"https://github.com/PublicI/tax-bill-contribs\">publicly available on GitHub</a>. The story was published in partnership with <a href=\"https://www.motherjones.com/politics/2019/02/billionaires-flooded-republicans-coffers-just-before-the-tax-cuts-passed/\">Mother Jones</a>."
+    ],
+    "tools": "Excel, Git/GitHub, Python, SQL"
+  },
+  {
+    "title": "Out-of-state donors pour cash into Democrats’ state races",
+    "url": "https://publicintegrity.org/politics/state-politics/out-of-state-donors-pour-cash-into-democrats-state-races/",
+    "publisher": "Center for Public Integrity",
+    "date": "2018-10-10",
+    "paragraphs": [
+      "With 2018 midterm campaigns in full swing, my colleague and I investigated the extent to which out-of-state donors were influencing the course of state and local elections, all the way down to the state legislative level. We found that the amount of of-out-state money flowing to these races was surging, topping more than $173 million with a month to go before races were decided. And unlike prior years, Democratic candidates were out-raising their GOP opponents. This windfall in contributions from non-constituent sources raised questions about whether some newly-elected officials might be beholden to outsiders. We explored this issue, an especially salient one since much of the money came from out-of-state corporate PACs, in the story. I made the code and data behind the story’s analysis <a href=\"https://github.com/PublicI/out-of-state-contribs\">publicly available on GitHub</a> and wrote a <a href=\"https://publicintegrity.org/state-politics/reporting-recipe-how-to-investigate-out-of-state-influence-in-2018-races/\">detailed methodology</a>. The story was published in partnership with <a href=\"https://www.usatoday.com/story/news/politics/elections/2018/10/10/local-democratic-candidates-rely-faraway-donors-campaign-cash/1580602002/\">USA TODAY</a>."
+    ],
+    "tools": "Excel, Git/GitHub, Python"
+  },
+  {
+    "title": "How drugmakers sway states to profit off of Medicaid",
+    "url": "https://publicintegrity.org/politics/state-politics/medicaid-under-the-influence/how-drugmakers-sway-states-to-profit-off-of-medicaid/",
+    "publisher": "Center for Public Integrity",
+    "date": "2018-07-18",
+    "paragraphs": [
+      "As the cost of Medicaid ballooned following its expansion under the Affordable Care Act, my colleagues and I investigated the extent to which drug companies sway states to profit off the program. We found that pharmaceutical companies had infiltrated nearly every part of the process that determines how their drugs will be covered by taxpayers: giving free dinners and consulting gigs to many doctors on the obscure committees advising state Medicaid programs; asking speakers who don’t disclose their financial ties with drug companies to testify about their drugs; and paying for state Medicaid officials to attend all-inclusive conferences where they can mingle with drug representatives. I made the code and data behind the story’s analysis <a href=\"https://github.com/PublicI/medicaid-influence-analysis\">publicly available on GitHub</a> and wrote a <a href=\"https://publicintegrity.org/state-politics/how-we-investigated-drugmakers-influence-over-medicaid/\">detailed methodology</a>. The story was published in partnership with <a href=\"https://www.npr.org/sections/health-shots/2018/07/16/629575118/medicaid-under-the-influence-how-drugmakers-sway-medication-options-for-patients?live=1\">NPR</a> and won a <a href=\"https://www.anderson.ucla.edu/news-and-events/signature-events/gerald-loeb-awards/winners/audio\">Gerald Loeb Award for Distinguished Business and Financial Journalism</a>."
+    ],
+    "tools": "Excel, Git/GitHub, Python, SQL"
+  },
+  {
+    "title": "Without Obamacare or a replacement, 370,000 in San Diego County could lose insurance",
+    "url": "https://inewsource.org/2017/02/16/obamacare-repeal-mean-370000-san-diego-lose-insurance/",
+    "publisher": "inewsource",
+    "date": "2017-02-16",
+    "paragraphs": [
+      "As politicians in Washington took the first steps toward repealing the Affordable Care Act, my colleague and I investigated the potential impact of the law's repeal on San Diego County residents. We augmented the voices of regular people, public health experts and elected officials with data analysis and interactive elements to examine what was at stake in the repeal debate. Using data from two state-level departments and the Census Bureau, I was able to show that one in nine residents could lose their health insurance. We told the story through text, audio, video, an interactive chart, a searchable database and interactive maps."
+    ],
+    "tools": "DataTables, Excel, Highcharts, Leaflet, QGIS"
+  },
+  {
+    "title": "Poverty in San Diego County higher than during Great Recession",
+    "url": "https://inewsource.org/2017/01/04/poverty-san-diego-county-higher-great-recession/",
+    "publisher": "inewsource",
+    "date": "2017-01-04",
+    "paragraphs": [
+      "By crunching data from the Census Bureau's 2006-10 and 2011-15 American Community Survey data sets, I revealed that a higher proportion of San Diego County residents were living in poverty during the Great Recession's \"recovery\" than during the recession itself and the years that bookended it. Because I wanted to measure the changes in poverty on a census tract-level for the story and the interactive map I built for it, I had to calculate whether the change in poverty for each tract was statistically significant. I told the story through text, audio, interactive charts and an interactive map."
+    ],
+    "tools": "Excel, Google Fusion Tables, Google Fusion Tables Searchable Map Template, Highcharts, QGIS, SQL"
+  },
+  {
+    "title": "Dark money, accusations of campaign finance violations roil Lilac Hills Ranch campaign",
+    "url": "https://inewsource.org/2016/10/25/dark-money-lilac-hills-ranch/",
+    "publisher": "inewsource",
+    "date": "2016-10-25",
+    "paragraphs": [
+      "I used a mix of data analysis, document digging and on-the-ground reporting to shine a light on the funds powering one side of a county ballot measure campaign. I followed the money trail behind a six-figure donation from a nonprofit with a checkered record that refused to disclose its source of funds.&nbsp;The donation served as a test case for new state regulations policing the political activities of nonprofits. This in-depth story stemmed from earlier reporting of mine on the hard-fought campaign and was followed by a lawsuit and investigations by California's elections watchdog, all of which I reported on. I told the story through text, audio, video and interactive charts."
+    ],
+    "tools": "Excel, Highcharts, QGIS"
+  },
+  {
+    "title": "A decade later, San Diego’s living wage law quiets critics, offers enforcement lessons",
+    "url": "https://inewsource.org/2016/09/06/decade-later-san-diegos-living-wage-law-quiets-critics-offers-enforcement-lessons/",
+    "publisher": "inewsource",
+    "date": "2016-09-06",
+    "paragraphs": [
+      "In the midst of a contentious local debate over whether San Diego should raise its minimum wage, my colleague and I investigated the city's decade-old living wage law for government contractors. We wanted to test both whether the law had hurt businesses as its critics contended and also whether the city was adequately enforcing it. By cleaning, standardizing and analyzing several decade-old data sets acquired through public records act requests, I was able to prove that it didn't hurt city contractors and that the city had room for improvement when it came to enforcement. We told the story through text, audio, video, an interactive chart and a searchable database."
+    ],
+    "tools": "DataTables, Excel, Highcharts, OpenRefine, SQL"
+  },
+  {
+    "title": "Search San Diego campaign contributions",
+    "url": "https://inewsource.org/2016/05/09/san-diego-campaign-finance-news-app/",
+    "publisher": "inewsource",
+    "date": "2016-05-09",
+    "paragraphs": [
+      "A freelance web developer and I built this news app that allows users to search contributions to candidates, ballot measures and independent committees in the city of San Diego. The app automatically updates every morning with data that was previously locked away in an Excel file on the city clerk's website. I wrote custom Python code to grab the file from the web, parse and clean it and repackage it for uploading to our server. I also wrote a detailed explainer of San Diego's campaign finance regulations so users would better understand how to use the app."
+    ],
+    "tools": "CSS, Django, Excel, HTML, Python"
+  },
+  {
+    "title": "New culprit in San Diego water main breaks: asbestos cement",
+    "url": "https://inewsource.org/2015/11/10/new-culprit-in-san-diego-water-main-breaks-asbestos-cement/",
+    "publisher": "inewsource",
+    "date": "2015-11-10",
+    "paragraphs": [
+      "Despite tens of millions of dollars in infrastructure upgrades, San Diego's repair crews are in a perennial battle to keep the city's water in its pipes.&nbsp;With this story, I showed that water mains in San Diego broke 306 times in a little under four years, wasting an estimated 35 million gallons of water. My analysis revealed that most breaks were occurring in a type of pipe whose replacement the city had only recently begun to address. By combining data from the city's Public Utilities and Risk Management Departments, I was also able to reveal the city had paid out nearly $9.8 million in break-related claims and cleanup fees in that period.&nbsp;I told the story through text, audio, video, an interactive chart and an interactive map."
+    ],
+    "tools": "Excel, Google Fusion Tables, Google Fusion Tables Searchable Map Template, Plotly, SQL"
+  },
+  {
+    "title": "State lottery a gamble for San Diegans",
+    "url": "https://inewsource.org/2015/04/29/state-lottery-a-gamble-for-san-diegans/",
+    "publisher": "inewsource",
+    "date": "2015-04-29",
+    "paragraphs": [
+      "San Diego County stores sell more than $300 million in lottery tickets annually. Who's buying them and where does the money go? By combining store-level sales data from the State Lottery with American Community Survey data from the Census Bureau, I was able to disprove the myth that a disproportionate number of tickets are sold in low-income areas. I also revealed how much local school districts receive in lottery money. I told the story through text, audio, a searchable database and an interactive map."
+    ],
+    "tools": "DataTables, Excel, Google Fusion Tables, Google Fusion Tables Searchable Map Template, QGIS, SQL"
+  },
+  {
+    "title": "Fewer vaccinations threaten San Diego’s collective immunity",
+    "url": "https://inewsource.org/2015/01/29/fewer-vaccinations-threaten-san-diegos-collective-immunity/",
+    "publisher": "inewsource",
+    "date": "2015-01-29",
+    "paragraphs": [
+      "I reported this story shortly after the high-profile Measles outbreak at Disneyland. I showed that nearly 8% of San Diego County’s kindergarteners are not up-to-date on their vaccinations. I pinpointed the kindergartens with the highest vaccination exemption rate and, by combining data from the state Departments of Education and Public Health,&nbsp;was able to disprove the myth that it was the least-educated parents who were opting not to vaccinate their children. I told the story through text, audio, video, a searchable database and an interactive map."
+    ],
+    "tools": "DataTables, Excel, Google Fusion Tables, Google Fusion Tables Searchable Map Template, SQL"
+  },
+  {
+    "title": "PACs back incumbents; just ask Scott Peters",
+    "url": "https://inewsource.org/2014/08/28/pacs-back-incumbents-just-ask-scott-peters/",
+    "publisher": "inewsource",
+    "date": "2014-08-24",
+    "paragraphs": [
+      "By building and comparing a database of political action committee (PAC) contributions to Democratic Representative Scott Peters' 2014 reelection campaign with a database of PACs that had donated to Republican incumbent Brian Bilbray in 2012, I was able to show that one hundred PACs that had donated to his opponent in 2012 were donating to Peters now that he was the incumbent. In his 2012 race, Peters had criticized Bilbray's reliance on these same donors. Further analysis of the data revealed many of the PACs that had switched were those of defense contractors with business before the House Armed Services Committee on which Peters sat. I told the story through text, audio and searchable databases."
+    ],
+    "tools": "DataTables, Excel, SQL"
+  },
+  {
+    "title": "Some entrepreneurs go begging",
+    "url": "https://www.expressnews.com/news/local/article/Some-entrepreneurs-go-begging-4705174.php?t=e662218bc2744ce927",
+    "publisher": "San Antonio Express-News",
+    "date": "2013-08-03",
+    "paragraphs": [
+      "The Small Business Administration is tasked with supporting small businesses' formation and growth by guaranteeing bank loans to them. I took a look to see whether the recipients of SBA-backed loans in the San Antonio metro area reflected the region's diversity. As it turned out, they didn't. By analyzing five years of Small Business Administration data, I revealed that —&nbsp;in a metro area with a non-white population of 64% — just 44% of Small Business Administration loans went to minority-owned businesses. And, by combining that data with neighborhood-level statistics from the Census Bureau, I further showed that barely a quarter of loans went to businesses located in poor- and moderate-income areas."
+    ],
+    "tools": "ArcMap, Excel, SQL"
+  },
+  {
+    "title": "Failure to fill spots worsened jail staffing crisis",
+    "url": "https://www.mysanantonio.com/news/local_news/article/Failure-to-fill-spots-worsened-jail-staffing-4226625.php",
+    "publisher": "San Antonio Express-News",
+    "date": "2013-01-27",
+    "paragraphs": [
+      "Following a hard-fought sheriff's race in which departmental budget overruns featured prominently, my colleague and I investigated claims of out-of-control overtime at San Antonio's Bexar County jail. By analyzing several different data sets, we revealed the facility's staffing crisis was exacerbated by chronic absenteeism among a handful of jailers. We dug into the data to show how, over a three-year period, just 2.7% of jailers accounted for 12% of the department's 861,842 hours of absenteeism. We proved the absenteeism was mishandled by the former sheriff, forcing more deputies to work extra shifts and causing a huge increase in overtime costs."
+    ],
+    "tools": "Excel, SQL"
+  },
+  {
+    "title": "In S.A., Romney gets more money, Obama gets more donors",
+    "url": "https://www.mysanantonio.com/news/local_news/article/In-S-A-Romney-gets-more-money-Obama-gets-more-3946692.php",
+    "publisher": "San Antonio Express-News",
+    "date": "2012-10-14",
+    "paragraphs": [
+      "As Barack Obama and Mitt Romney were on their way to raising record amounts of money in the 2012 presidential race, I investigated how the candidates were doing so in San Antonio. By analyzing contribution-level data from the Federal Election Commission, I was able to show that while Romney outraised Obama, the president had many more individual donors. Furthermore, I discovered the candidates were raising money in dramatically different ways: in Romney's case, a relative handful of donors were cutting four-figure checks while Obama was heavily reliant on many more donors repeatedly making small contributions. And, by geocoding donor addresses and combining that information with data from the Census Bureau, I was able to show that nearly a quarter of the funds raised in the race came from the wealthiest 25 census tracts in the eight-county metro area."
+    ],
+    "tools": "ArcMap, Excel, SQL"
+  },
+  {
+    "title": "Local incomes don't keep up with housing costs",
+    "url": "https://www.mysanantonio.com/news/local/article/Local-incomes-don-t-keep-up-with-housing-costs-3886816.php",
+    "publisher": "San Antonio Express-News",
+    "date": "2012-09-23",
+    "paragraphs": [
+      "It's no secret that housing is the greatest regular expense for most Americans. With San Antonio's housing market several years down the road to recovery from its depths during the Great Recession, I set out to learn just how much of a burden rising rents and mortgage payments were for the region's residents. To get the story, I analyzed multiple sets of income, rental and mortgage survey data from the US Census Bureau. My analysis revealed that the proportion of San Antonio area households spending at least half their incomes on housing costs had nearly doubled in a decade."
+    ],
+    "tools": "Excel, Google Fusion Tables, SQL"
+  },
+  {
+    "title": "Faulty pumps, fuming drivers",
+    "url": "https://www.mysanantonio.com/news/local_news/article/Faulty-pumps-fuming-drivers-3588358.php",
+    "publisher": "San Antonio Express-News",
+    "date": "2012-05-27",
+    "paragraphs": [
+      "High gas prices aside, have you ever wondered whether you were getting what you paid for at the pump? I analyzed a year's worth of state inspections data to reveal that nearly one in five gas stations in the San Antonio metro area were operating at least one pump that could stiff customers, shortchanging motorists by as much as $3 per fill. Despite the frequent pump failures, my analysis showed that fewer than one in three failing stations were fined and that not a single station had ever faced criminal prosecution."
+    ],
+    "tools": "Caspio, Excel, Google Fusion Tables, SQL"
+  }
+]
