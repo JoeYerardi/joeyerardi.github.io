@@ -118,7 +118,7 @@ def archive(recent, stories):
     return f"""
   <section class="page-intro">
     <h1>Featured work</h1>
-    <p class="dek">Selected investigations, data stories and news apps.</p>
+    <p class="dek">Selected stories and data journalism</p>
   </section>
   <section aria-labelledby="new-work" class="recent">
     <div class="section-heading">
