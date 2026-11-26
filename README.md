@@ -11,10 +11,10 @@ python3 -m http.server 8765 --bind 127.0.0.1 --directory public
 
 Open [the local preview](http://127.0.0.1:8765/). Rerun the build after editing content.
 
-- `content/recent.json` contains selected Philadelphia Inquirer stories displayed on the homepage and Work page.
+- `content/recent.json` contains selected Philadelphia Inquirer stories in display order. The homepage shows the first three. The Work page shows the full list.
 - `content/archive.json` contains the clips, original reporting notes and links migrated from Squarespace. Paragraphs can contain HTML links.
 - `content/about.html` contains the biography and résumé.
-- `build.py` defines the shared layout, featured investigation and Contact page. Styles and archive search live in `assets/`.
+- `build.py` defines the shared layout, homepage and Contact page. Styles and archive search live in `assets/`.
 
 ## Publish
 

@@ -74,46 +74,21 @@ def recent_card(story):
     </article>"""
 
 
-def home(recent, lead):
+def home(recent):
     return f"""
   <section class="intro">
-    <p class="eyebrow"><span class="rule"></span>Philadelphia, PA</p>
     <h1>Joe Yerardi<span>.</span></h1>
-    <p class="role">Data reporter &amp; news developer</p>
-    <p class="dek">I use data, code and traditional reporting to tell stories about people and the institutions that shape their lives. I work at <a href="{INQUIRER}">The Philadelphia Inquirer</a>.</p>
+    <p class="role">Data Journalist</p>
+    <p class="dek">Over 15 years in journalism, I've used data, code, and traditional reporting techniques to tell stories about people and the institutions that shape their lives.</p>
     <div class="intro-links">
       <a href="./featured-work/" class="button">Explore my work</a>
       <a href="./about/">More about me</a>
     </div>
   </section>
 
-  <section class="feature" aria-labelledby="feature-title">
-    <div class="feature-copy">
-      <p class="eyebrow">Featured investigation</p>
-      <h2 id="feature-title"><a href="{escape(lead['url'])}">{escape(lead['title'])}</a></h2>
-      <p>Guest worker visas nearly tripled between 2011 and 2019. Wage theft investigations involving those workers barely rose.</p>
-      <p class="meta">Center for Public Integrity <span aria-hidden="true">·</span> {publication_date(lead['date'])}</p>
-    </div>
-    <figure class="figure">
-      <figcaption>
-        <span>U.S. guest worker visas issued</span>
-        <span>H-2A and H-2B visas</span>
-      </figcaption>
-      <div class="bar-row">
-        <span>2011</span>
-        <div class="bar-track"><div class="bar" style="--size:35.10%">106,000</div></div>
-      </div>
-      <div class="bar-row">
-        <span>2019</span>
-        <div class="bar-track"><div class="bar bar-current" style="--size:100%">302,000</div></div>
-      </div>
-      <p>Source: U.S. Department of State</p>
-    </figure>
-  </section>
-
   <section class="recent" aria-labelledby="recent-title">
     <div class="section-heading">
-      <div><p class="eyebrow">The Philadelphia Inquirer</p><h2 id="recent-title">From the newsroom</h2></div>
+      <h2 id="recent-title">The Philadelphia Inquirer</h2>
       <a href="{INQUIRER}">All Inquirer bylines</a>
     </div>
     <div class="recent-grid">{''.join(map(recent_card, recent))}
@@ -143,7 +118,7 @@ def archive(recent, stories):
       <h2 id="new-work">The Philadelphia Inquirer</h2>
       <a href="{INQUIRER}">All Inquirer bylines</a>
     </div>
-    <div class="recent-grid">{''.join(map(recent_card, recent))}
+    <div class="recent-list">{''.join(map(recent_card, recent))}
     </div>
   </section>
   <section id="archive" class="archive" aria-labelledby="archive-title">
@@ -174,10 +149,9 @@ CONTACT = """
 def build():
     recent = load("recent.json")
     stories = load("archive.json")
-    lead = next(story for story in stories if story["url"].endswith("/guest-workers-increase-wage-cheating/"))
     about = (CONTENT / "about.html").read_text(encoding="utf-8")
     pages = (
-        ("", "Joe Yerardi | Data reporter & news developer", "The journalism portfolio of Joe Yerardi.", home(recent, lead)),
+        ("", "Joe Yerardi | Data Journalist", "The journalism portfolio of Joe Yerardi.", home(recent[:3])),
         ("featured-work", "Featured Work | Joe Yerardi", "Selected investigations, data stories and news apps by Joe Yerardi.", archive(recent, stories)),
         ("about", "About | Joe Yerardi", "Joe Yerardi’s journalism experience, awards and education.", about),
         ("contact", "Contact | Joe Yerardi", "Contact data reporter Joe Yerardi.", CONTACT),

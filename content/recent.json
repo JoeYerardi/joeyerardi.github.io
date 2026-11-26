@@ -1,26 +1,44 @@
 [
   {
-    "title": "How Bucks County swung toward Bob Harvie",
-    "url": "https://www.inquirer.com/politics/election/bob-harvie-young-hispanic-voters-bucks-county-20261117.html",
-    "publisher": "The Philadelphia Inquirer",
-    "date": "2026-11-17",
+    "title": "The danger next door",
+    "url": "https://share.inquirer.com/eOqSa7",
+    "date": "2025-12-08",
+    "topic": "Housing",
+    "summary": "Hundreds of Philadelphians live next to dangerous abandoned buildings. The city stopped using its tool to track vacant properties and now relies on residents’ complaints."
+  },
+  {
+    "title": "For Philly-area immigrants, an ICE arrest can take them thousands of miles from home. Some say that’s by design.",
+    "url": "https://share.inquirer.com/BZvTeL",
+    "date": "2026-03-19",
+    "topic": "Immigration",
+    "summary": "An analysis of nearly 20,000 ICE transfers shows how detention can move people far from their families, lawyers and support networks."
+  },
+  {
+    "title": "How Camden tells the story of Mikie Sherrill’s big win and New Jersey’s blue wave",
+    "url": "https://share.inquirer.com/fuKLjP",
+    "date": "2025-12-27",
     "topic": "Elections",
-    "summary": "A look at where Harvie gained ground and how age, income and demographics shaped his win over Brian Fitzpatrick."
+    "summary": "Camden’s election returns show how Sherrill won back voters and reversed Republican gains from 2024."
   },
   {
-    "title": "Where Philly sports owners send their political donations",
-    "url": "https://www.inquirer.com/politics/election/political-campaign-donations-philadelphia-sports-team-owners-managers-20261102.html",
-    "publisher": "The Philadelphia Inquirer",
-    "date": "2026-11-02",
+    "title": "Josh Shapiro may be the biggest fundraising juggernaut Pennsylvania politics has ever produced",
+    "url": "https://share.inquirer.com/BCBLNW",
+    "date": "2026-07-23",
     "topic": "Campaign finance",
-    "summary": "Campaign finance records show who benefited from nearly $2 million in political giving by individual team owners since 2021."
+    "summary": "Campaign finance filings show that Shapiro raised more than any Pennsylvania governor since at least 2010 as he sought a second term."
   },
   {
-    "title": "Tracking abandoned cars across Philadelphia",
-    "url": "https://www.inquirer.com/news/philadelphia/abandoned-cars-311-ppa-police-mayor-parker-20260422.html",
-    "publisher": "The Philadelphia Inquirer",
-    "date": "2026-04-22",
-    "topic": "City services",
-    "summary": "Philadelphia has made progress clearing abandoned cars, but thousands of reports still come in through 311 each month."
+    "title": "Did ward endorsements make a difference in Philly’s DA race?",
+    "url": "https://share.inquirer.com/po5u5i",
+    "date": "2025-06-07",
+    "topic": "Elections",
+    "summary": "An analysis of Philadelphia’s district attorney primary tests whether ward endorsements still matter after accounting for other factors."
+  },
+  {
+    "title": "Immigration courts in Pa., N.J., and Del. issued record number of deportation orders in June",
+    "url": "https://share.inquirer.com/eoJdqG",
+    "date": "2026-08-13",
+    "topic": "Immigration",
+    "summary": "Court records show about 46,000 removal or voluntary departure orders across the three states since Trump returned to office, more than during Biden’s full term."
   }
 ]

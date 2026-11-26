@@ -218,55 +218,5 @@
       "By building and comparing a database of political action committee (PAC) contributions to Democratic Representative Scott Peters' 2014 reelection campaign with a database of PACs that had donated to Republican incumbent Brian Bilbray in 2012, I was able to show that one hundred PACs that had donated to his opponent in 2012 were donating to Peters now that he was the incumbent. In his 2012 race, Peters had criticized Bilbray's reliance on these same donors. Further analysis of the data revealed many of the PACs that had switched were those of defense contractors with business before the House Armed Services Committee on which Peters sat. I told the story through text, audio and searchable databases."
     ],
     "tools": "DataTables, Excel, SQL"
-  },
-  {
-    "title": "Some entrepreneurs go begging",
-    "url": "https://www.expressnews.com/news/local/article/Some-entrepreneurs-go-begging-4705174.php?t=e662218bc2744ce927",
-    "publisher": "San Antonio Express-News",
-    "date": "2013-08-03",
-    "paragraphs": [
-      "The Small Business Administration is tasked with supporting small businesses' formation and growth by guaranteeing bank loans to them. I took a look to see whether the recipients of SBA-backed loans in the San Antonio metro area reflected the region's diversity. As it turned out, they didn't. By analyzing five years of Small Business Administration data, I revealed that —&nbsp;in a metro area with a non-white population of 64% — just 44% of Small Business Administration loans went to minority-owned businesses. And, by combining that data with neighborhood-level statistics from the Census Bureau, I further showed that barely a quarter of loans went to businesses located in poor- and moderate-income areas."
-    ],
-    "tools": "ArcMap, Excel, SQL"
-  },
-  {
-    "title": "Failure to fill spots worsened jail staffing crisis",
-    "url": "https://www.mysanantonio.com/news/local_news/article/Failure-to-fill-spots-worsened-jail-staffing-4226625.php",
-    "publisher": "San Antonio Express-News",
-    "date": "2013-01-27",
-    "paragraphs": [
-      "Following a hard-fought sheriff's race in which departmental budget overruns featured prominently, my colleague and I investigated claims of out-of-control overtime at San Antonio's Bexar County jail. By analyzing several different data sets, we revealed the facility's staffing crisis was exacerbated by chronic absenteeism among a handful of jailers. We dug into the data to show how, over a three-year period, just 2.7% of jailers accounted for 12% of the department's 861,842 hours of absenteeism. We proved the absenteeism was mishandled by the former sheriff, forcing more deputies to work extra shifts and causing a huge increase in overtime costs."
-    ],
-    "tools": "Excel, SQL"
-  },
-  {
-    "title": "In S.A., Romney gets more money, Obama gets more donors",
-    "url": "https://www.mysanantonio.com/news/local_news/article/In-S-A-Romney-gets-more-money-Obama-gets-more-3946692.php",
-    "publisher": "San Antonio Express-News",
-    "date": "2012-10-14",
-    "paragraphs": [
-      "As Barack Obama and Mitt Romney were on their way to raising record amounts of money in the 2012 presidential race, I investigated how the candidates were doing so in San Antonio. By analyzing contribution-level data from the Federal Election Commission, I was able to show that while Romney outraised Obama, the president had many more individual donors. Furthermore, I discovered the candidates were raising money in dramatically different ways: in Romney's case, a relative handful of donors were cutting four-figure checks while Obama was heavily reliant on many more donors repeatedly making small contributions. And, by geocoding donor addresses and combining that information with data from the Census Bureau, I was able to show that nearly a quarter of the funds raised in the race came from the wealthiest 25 census tracts in the eight-county metro area."
-    ],
-    "tools": "ArcMap, Excel, SQL"
-  },
-  {
-    "title": "Local incomes don't keep up with housing costs",
-    "url": "https://www.mysanantonio.com/news/local/article/Local-incomes-don-t-keep-up-with-housing-costs-3886816.php",
-    "publisher": "San Antonio Express-News",
-    "date": "2012-09-23",
-    "paragraphs": [
-      "It's no secret that housing is the greatest regular expense for most Americans. With San Antonio's housing market several years down the road to recovery from its depths during the Great Recession, I set out to learn just how much of a burden rising rents and mortgage payments were for the region's residents. To get the story, I analyzed multiple sets of income, rental and mortgage survey data from the US Census Bureau. My analysis revealed that the proportion of San Antonio area households spending at least half their incomes on housing costs had nearly doubled in a decade."
-    ],
-    "tools": "Excel, Google Fusion Tables, SQL"
-  },
-  {
-    "title": "Faulty pumps, fuming drivers",
-    "url": "https://www.mysanantonio.com/news/local_news/article/Faulty-pumps-fuming-drivers-3588358.php",
-    "publisher": "San Antonio Express-News",
-    "date": "2012-05-27",
-    "paragraphs": [
-      "High gas prices aside, have you ever wondered whether you were getting what you paid for at the pump? I analyzed a year's worth of state inspections data to reveal that nearly one in five gas stations in the San Antonio metro area were operating at least one pump that could stiff customers, shortchanging motorists by as much as $3 per fill. Despite the frequent pump failures, my analysis showed that fewer than one in three failing stations were fined and that not a single station had ever faced criminal prosecution."
-    ],
-    "tools": "Caspio, Excel, Google Fusion Tables, SQL"
   }
 ]
